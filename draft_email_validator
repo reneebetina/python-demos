@@ -1,0 +1,9 @@
+#Valid Email
+
+# valid_username
+# @ sign
+# valid mailserver.domain (i.e. google.com, yahoo.com)
+
+
+#special characters : ! # $ % & ‘ * + – / = ? ^ _ ` . { | } ~
+#space not allowed
