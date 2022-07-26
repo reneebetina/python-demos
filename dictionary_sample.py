@@ -8,3 +8,19 @@ toc["Chapter 3"] = 24
 print(toc)               
 # Is there a Chapter 5?
 print("Chapter 5" in toc)     
+
+
+
+#Listing all items in DICTIONARY TYPE
+wardrobe = {"shirt":["red","blue","white"], "jeans":["blue","black"]}
+for clothing,colorlist in wardrobe.items():
+	#print(clothing)
+	for color in colorlist:
+		print("{} {}".format(color,clothing))
+    
+#Here is your output:
+#red shirt
+#blue shirt
+#white shirt
+#blue jeans
+#black jeans
