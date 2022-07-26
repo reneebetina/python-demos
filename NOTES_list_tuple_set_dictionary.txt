@@ -9,6 +9,7 @@ List is a collection of ordered data.	MUTABLE
 Tuple is an ordered collection of data. IMMUTABLE- cannot be changed	
   CANNOT BE SORTED
   CANNOT BE REVERSED
+  The order matters in a tuple
 
 
 SET is an unordered collection.	MUTABLE, NO DUPLICATE ITEMS
