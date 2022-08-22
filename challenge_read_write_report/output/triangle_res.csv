@@ -1,0 +1,16 @@
+a,b,c,triangle_type
+10,10,10,Equilateral
+11,11,11,Equilateral
+30,32,30,Isosceles
+40,40,40,Equilateral
+20,20,21,Not A Triangle
+21,21,21,Equilateral
+20,22,21,Not A Triangle
+20,20,40,Not A Triangle
+20,22,21,Not A Triangle
+30,32,41,Not A Triangle
+50,22,51,Not A Triangle
+20,12,61,Not A Triangle
+20,22,50,Not A Triangle
+50,52,51,Not A Triangle
+80,80,80,Equilateral

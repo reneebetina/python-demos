@@ -1,16 +1,18 @@
-String - text ; IMMUTABLE
+STRING - text ; IMMUTABLE
 
 https://www.educative.io/answers/list-vs-tuple-vs-set-vs-dictionary-in-python
 
-List is a collection of ordered data.	MUTABLE
+LIST is a collection of ordered data.	MUTABLE
   append()
   sorted()
   reverse()
-Tuple is an ordered collection of data. IMMUTABLE- cannot be changed	
+  pop()
+  Search using the index
+
+TUPLE is an ordered collection of data. IMMUTABLE-cannot be changed
   CANNOT BE SORTED
   CANNOT BE REVERSED
   The order matters in a tuple
-
 
 SET is an unordered collection.	MUTABLE, NO DUPLICATE ITEMS
   add()
@@ -22,5 +24,5 @@ DICTIONARY is an unordered collection of data that stores data in key-value pair
   pop()
   update()
   sort()
-  CANNOT BE REVERSED
-
+  search / get value using the key
+  CANNOT BE REVERSED - but you may sort then get first/last element
