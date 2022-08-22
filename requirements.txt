@@ -1,3 +1,5 @@
 requests
-fileupload
-ipywidgets
+wordcloud
+IPython
+pandas
+pytz
