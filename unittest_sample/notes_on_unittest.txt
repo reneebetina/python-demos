@@ -1,0 +1,11 @@
+UNIT TEST GUIDELINES
+
+* use 'from <yourPythonFunction> import <yourPythonFile>
+* always `import unittest `
+* file name must always be <yourPythonFile>_test.py
+
+* your test cases must start with test_<someName>
+* your test_<someName>.py must have a unittest.main() so it can run
+
+
+
