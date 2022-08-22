@@ -9,3 +9,26 @@ UNIT TEST GUIDELINES
 
 
 
+Common Methods in  Python3 unittest module
+assertEqual
+assertNotEqual
+assertTrue
+assertFalse
+assertIsNone
+assertIsNotNone
+assertIn(a|b)    a is in b
+assertNotIn(a|b)      a is not in b
+assertGreater
+assertGreaterEqual 
+assertLess
+assertLessEqual
+assertRegex
+assertListEqual
+assertTupleEqual
+assertSetEqual
+assertDictEqual
+
+[Asserting EXCEPTIONS]
+assertRaises
+assertRaisesRegex
+assertWarns
