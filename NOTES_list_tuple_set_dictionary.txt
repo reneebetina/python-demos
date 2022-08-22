@@ -22,10 +22,17 @@ SET is an unordered collection.	MUTABLE, NO DUPLICATE ITEMS
   CANNOT BE SORTED
   CANNOT BE REVERSED
   
-DICTIONARY is an unordered collection of data that stores data in key-value pairs. 	MUTABLE, NO DUPLICATE ITEMS
+DICTIONARY is an unordered collection of data that stores data in key-value pairs. 	
+  MUTABLE, NO DUPLICATE ITEMS
   push()
   pop()
   update()
   sort()
   search / get value using the key
   CANNOT BE REVERSED directly - but you may sort then get first/last element
+
+  
+  To navigate elements, use ____.items(), ____.keys(), ____.values()
+             # for x in dictionary_name.items():
+             
+   Approach 2: store dictionary values in a list then sort/reverse as you need.
