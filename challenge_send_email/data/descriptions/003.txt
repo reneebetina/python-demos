@@ -1,0 +1,3 @@
+Strawberry
+300
+Description of an strawberry

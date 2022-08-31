@@ -3,3 +3,5 @@ wordcloud
 IPython
 pandas
 pytz
+reports
+emails

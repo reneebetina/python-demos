@@ -1,0 +1,18 @@
+######### PYTHON IN LINUX COMMAND LINE (if you don't have IDE)
+######### 1. Create PY file - use nano/vim/touch
+nano <filename.py>
+
+######### 2. Edit script - make sure shebang on 1st line
+Line 1 must have:
+#!/usr/bin/env python3
+
+######### 3. Save your .py file
+Ctrl+O then Ctrl+X
+
+######### 4. Make your Py File EXECUTABLE
+chmod +x <filename.py>
+
+     # you should also do this for .sh or .pem files that you want to run
+
+######### 5. Run Script
+./<filename.py>

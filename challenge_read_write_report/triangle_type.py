@@ -18,7 +18,7 @@ if __name__ == '__main__':
     res_string = ""
     res_line = {}
     list_of_dictionaries_res_line = []
-    with open('test_data/triangle.txt', mode='r', encoding='UTF-8') as file:
+    with open('input/triangle.txt', mode='r', encoding='UTF-8') as file:
         for line in file.readlines():
             list_num = line.split(' ')
             #print(list_num)
