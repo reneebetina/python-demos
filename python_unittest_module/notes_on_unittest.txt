@@ -1,0 +1,34 @@
+UNIT TEST GUIDELINES
+
+* use 'from <yourPythonFunction> import <yourPythonFile>
+* always `import unittest `
+* file name must always be <yourPythonFile>_test.py
+
+* your test cases must start with test_<someName>
+* your test_<someName>.py must have a unittest.main() so it can run
+
+
+
+Common Methods in  Python3 unittest module
+assertEqual
+assertNotEqual
+assertTrue
+assertFalse
+assertIsNone
+assertIsNotNone
+assertIn(a|b)    a is in b
+assertNotIn(a|b)      a is not in b
+assertGreater
+assertGreaterEqual 
+assertLess
+assertLessEqual
+assertRegex
+assertListEqual
+assertTupleEqual
+assertSetEqual
+assertDictEqual
+
+[Asserting EXCEPTIONS]
+assertRaises
+assertRaisesRegex
+assertWarns
